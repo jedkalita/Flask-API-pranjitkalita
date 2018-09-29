@@ -1,0 +1,12 @@
+Software Engineer Take Home Test
+
+	1.	In this zip file there is a Keras model saved as an h5 file that has been trained to distinguish between cats and dogs
+		a.) Please note that the inputs for the model are images with dimensions (150 x 150 x 3) 
+		b.) The output of the model (i.e. the prediction) is a single number between 0 and 1.  0 represents the “cats” class and 1 represents the “dog” class
+	2.	We would like you to build a REST API in a framework of your choosing that takes in an image as a request and returns a prediction of “Cat” or “Dog” 
+	3.	Once completed, please create a Dockerfile that can be used to rebuild an image of your API 
+	4.	Send back the Dockerfile and all associated files with a README for evaluation by the team
+		a.) Please send images that you used to test the model and your API so that we can replicate your calls
+	5.	If you have any questions, please do not hesitate to reach out to Alex Lee (alex@trendalytics.co) 
+
+These instructions are just a baseline, but please feel free to extend your API by adding a test suite, more API endpoints besides just a “predict”, etc.  We will be testing your API thoroughly, so please keep that in mind as you are building this.  Good luck! 
